@@ -78,6 +78,7 @@ const Filter = ({
             name="search"
             id="search"
             autoComplete="off"
+            placeholder="Search Country...."
             onChange={(e) => searchCountries(e.target.value)}
           />
         </div>
